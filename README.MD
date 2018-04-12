@@ -9,7 +9,7 @@ npm install ts-mobx-react --save
 
 # Usage
 
-```react
+```tsx
 import * as React from 'React';
 import { inject, observer } from 'ts-mobx-react';
 
@@ -33,7 +33,7 @@ export default class Demo extends React.Component<{}, {}> {
 }
 ```
 
-```react
+```tsx
 import { Provider } from 'ts-mobx-react';
 import { observable } from 'mobx';
 import { render } from 'react-dom';
@@ -61,4 +61,4 @@ render(
 
 # Tips
 
-I only changed the <observer> and <inject> decorator, and the other methods same as [mobx-react](https://github.com/mobxjs/mobx-react).
+I only changed the "observer" and "inject" decorator, and the other methods same as [mobx-react](https://github.com/mobxjs/mobx-react).
